@@ -4,4 +4,3 @@ For the SVM model, do not drop the features "team", "Opponent", "Winner" and "W/
 
 Any other features that are added that are strings need to be encoded. 
 
-There's an issue with games that have "Type" as "NCAA" having NaNs in the features. SVM cannot work with NaN data so only a few games can be selected as NCAA tournament games. Need to figure something out. 
